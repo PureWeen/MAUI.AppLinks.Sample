@@ -23,6 +23,7 @@ namespace AppLinksSample
        new string[] { Intent.ActionView },
        AutoVerify = true,
        Categories = new[] { Intent.CategoryDefault, Intent.CategoryBrowsable },
+       LaunchMode = LaunchMode.SingleTop,
        DataScheme = "https",
        DataHost = "redth.dev")]
     public class MainActivity : MauiAppCompatActivity
